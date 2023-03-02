@@ -1,7 +1,7 @@
-import '../styles/globals.css'
+import '../styles/globals.css';
 
-import type { AppProps } from 'next/app'
-import Head from 'next/head'
+import type { AppProps } from 'next/app';
+import Head from 'next/head';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -14,9 +14,9 @@ function MyApp({ Component, pageProps }: AppProps) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
       </Head>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;
